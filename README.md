@@ -73,4 +73,8 @@ Input: coordinates = [[1,2],[2,3],[3,4],[4,5],[5,6],[6,7]]
 Output: true
 ```
 
+### Tips: ### Just compute slope from the first points. If all the points are on the same line, their slope from the first point will be the same. Our point is defined by an array in the formate of [x,y].
+
+```sh
+slope=(y2-y1)/(x2-x1)
 ```
